@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seratch/slack-cloudflare-workers.git"
+    "url": "git+https://github.com/slack-edge/slack-cloudflare-workers.git"
   },
   "keywords": [
     "Slack",
@@ -23,9 +23,9 @@
   "author": "Kazuhiro Sera",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/seratch/slack-cloudflare-workers/issues"
+    "url": "https://github.com/slack-edge/slack-cloudflare-workers/issues"
   },
-  "homepage": "https://github.com/seratch/slack-cloudflare-workers#readme",
+  "homepage": "https://github.com/slack-edge/slack-cloudflare-workers#readme",
   "dependencies": {
     "@cloudflare/workers-types": "^4.20241127.0",
     "slack-edge": "^1.3.3"

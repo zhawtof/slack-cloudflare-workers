@@ -12,6 +12,6 @@ Key differences include:
 
 * **TypeScript focused**: Enhances type safety and clarifies typings for developers
 * **Lazy listener enabled**: [bolt-python's lazy listener feature](https://slack.dev/bolt-python/concepts#lazy-listeners) is provided out of the box
-* **Zero additional dependencies**: No other dependencies required beyond TypeScript types and our foundation module [slack-edge](https://github.com/seratch/slack-edge)
+* **Zero additional dependencies**: No other dependencies required beyond TypeScript types and our foundation module [slack-edge](https://github.com/slack-edge/slack-edge)
 
-Check [our documents](https://github.com/seratch/slack-cloudflare-workers/blob/main/docs/index.md) for more details!
+Check [our documents](https://github.com/slack-edge/slack-cloudflare-workers/blob/main/docs/index.md) for more details!
