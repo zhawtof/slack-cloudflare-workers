@@ -16,31 +16,7 @@ Let's begin by using a Cloudflare Workers project template to kickstart our proj
 
 ```bash
 npm install -g wrangler@latest
-npx wrangler generate my-slack-app
-```
-
-You will see the following outputs displayed in your terminal window:
-
-```
-$ npx wrangler generate my-slack-app
- ⛅️ wrangler 2.13.0
---------------------
-Using npm as package manager.
-✨ Created my-slack-app/wrangler.toml
-✔ Would you like to use git to manage this Worker? … yes
-✨ Initialized git repository at my-slack-app
-✔ No package.json found. Would you like to create one? … yes
-✨ Created my-slack-app/package.json
-✔ Would you like to use TypeScript? … yes
-✨ Created my-slack-app/tsconfig.json
-✔ Would you like to create a Worker at my-slack-app/src/index.ts? › Fetch handler
-✨ Created my-slack-app/src/index.ts
-✔ Would you like us to write your first test with Vitest? … yes
-✨ Created my-slack-app/src/index.test.ts
-
-To start developing your Worker, run `cd my-slack-app && npm start`
-To start testing your Worker, run `npm test`
-To publish your Worker to the Internet, run `npm run deploy`
+npx wrangler init my-slack-app
 ```
 
 Next, you can integrate the slack-cloudflare-workers library to your project by following these steps:
